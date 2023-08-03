@@ -59,3 +59,24 @@ ln -s /bin/ls __ls__
 #!/bin/bash
 cp -u *.html ..
 Copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory. Considering that all html files have the extension .html
+
+100-lets_move
+#!/bin/bash
+mv [[:upper:]]* /tmp/u
+
+101-clean_emacs
+#!/bin/bash
+rm *~
+
+102-tree
+#!/bin/bash
+mkdir -p welcome/to/school
+
+103-commas
+#!/bin/bash
+ls -xamp
+
+school.mgc
+0 string SCHOOL School data
+!:mime School
+
