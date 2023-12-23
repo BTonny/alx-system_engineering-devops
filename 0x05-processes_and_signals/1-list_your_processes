@@ -1,4 +1,11 @@
 #!/usr/bin/env bash
 # This script displays a list of currently running processes
 
-ps -auxf
+#!/bin/bash
+
+echo "Process List with Hierarchy:"
+ps -e -o pid,ppid,user,args --forest
+
+echo -e "\nUser-Oriented Format:"
+ps aux --sort=-%cpu,%mem
+
