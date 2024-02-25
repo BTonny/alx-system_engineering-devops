@@ -1,0 +1,19 @@
+# This is the result of running ./1-create_ssh_key_pair. 
+# Its not required in the project. Just a file i created to save the fingerprint and randomart
+Generating public/private rsa key pair.
+Your identification has been saved in school
+Your public key has been saved in school.pub
+The key fingerprint is:
+SHA256:N8xvAJ23m2Wnyy1hiB2NeagHg7C4iC9dHGUGcauX9WI root@ffffba875bf6
+The key's randomart image is:
++---[RSA 4096]----+
+|    oo.          |
+|     .=. . .     |
+|     =.oo.o .=   |
+|    o..o.=o.=.o  |
+| . o.oo E B*.+o .|
+|. . +. . oo++=oo |
+| o .       .=... |
+|. o        . ..o |
+| .            o..|
++----[SHA256]-----+
