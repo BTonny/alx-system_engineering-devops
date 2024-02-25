@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script connects to my server with ip: 52.204.102.21 using ssh with the private key ~/.ssh/school and the user name ubuntu.
+# This script connects to my server with ip: 54.160.109.194 using ssh with the private key ~/.ssh/school and the user name ubuntu.
 
-ssh -i ~/.ssh/school ubuntu@52.204.102.21
+ssh -i ~/.ssh/school ubuntu@54.160.109.194
