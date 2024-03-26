@@ -41,7 +41,7 @@ frontend baw-frontend
         default_backend baw-backend
 
 frontend baw-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/bawembye.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.bawembye.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend baw-backend
 
